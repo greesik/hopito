@@ -1,0 +1,12 @@
+.can-photo {
+    top: -150px;
+    width: 200px;
+    height: 700px;
+    /*background: url("../img/hopito-la-papaya.png") no-repeat;*/
+    background-size: contain;
+    position: relative;
+}
+
+.photo {
+    margin-right: 150px;
+}

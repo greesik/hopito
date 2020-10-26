@@ -1,0 +1,21 @@
+.hopito-logo {
+    height: 150px;
+    width: 150px;
+    background: url("../img/hopito-logo.png") no-repeat;
+    background-size: contain;
+}
+
+.header {
+    width: calc(100vw - 200px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    height: 150px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}

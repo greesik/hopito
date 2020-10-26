@@ -1,0 +1,19 @@
+.thumb {
+    list-style: none;
+    display: flex;
+    width: calc(100vw - 100px);
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+}
+
+.thumb  li img:hover {
+    transform: translateY(-15px);
+}
+
+.thumb  li  img {
+    height: 150px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
