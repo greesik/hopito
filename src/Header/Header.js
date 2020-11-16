@@ -1,16 +1,16 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 import "./Header.css";
 
 const Header = () => {
     return (
         <header className={"header"}>
-            <a href="#">
+            <Link to={"app"} smooth={true}>
                 <div className={"hopito-logo"}></div>
-            </a>
+            </Link>
             <nav className={"navbar"}>
                 <ul className={"nav-ul"}>
                     <li>Strona Główna</li>
-                    <li>Oferta</li>
                     <li>Newsletter</li>
                     <li>Kontakt</li>
                 </ul>

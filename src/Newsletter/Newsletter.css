@@ -1,0 +1,53 @@
+.newsletter {
+    height: 100vh;
+    padding: 50px;
+}
+
+.form-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 5px solid black;
+    outline: none;
+    font-size: 30px;
+    margin: 15px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid transparent;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+button:hover {
+    border-bottom: 5px solid black;
+    cursor: pointer;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-surname, .email-phone {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-title {
+    font-size: 50px;
+    margin-top: 50px;
+}

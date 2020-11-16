@@ -3,6 +3,12 @@
     width: 150px;
     background: url("../img/hopito-logo.png") no-repeat;
     background-size: contain;
+    position: fixed;
+    z-index: 3;
+}
+
+.hopito-logo:hover {
+    cursor: pointer;
 }
 
 .header {
